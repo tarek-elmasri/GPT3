@@ -1,10 +1,12 @@
 import './App.css';
-import Navbar from './components/navbar/Navbar';
+import { Navbar } from './components';
 
 function App() {
   return (
-    <div className="">
-      Hellow World
+    <div className="App">
+      <div className="gradient__bg">
+        <Navbar />
+      </div>
     </div>
   );
 }
